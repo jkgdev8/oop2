@@ -8,5 +8,7 @@ function Circle(radius) {
 }
 
 const circle = new Circle(1)
+const circle1 = new Circle(2)
 
 console.log(circle.draw());
+console.log(circle1.draw());
