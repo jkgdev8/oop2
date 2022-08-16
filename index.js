@@ -12,15 +12,13 @@ const circle = {
 
 circle.draw();
 
-function Circle(radius) {
-    this.radius = radius,
-        this.draw = function () {
-            console.log('draws');
-        }
-
-
+function Circle(hello) {
+    this.hello = hello
+    this.ping = function () {
+        console.log('this is a ping');
+    }
 }
 
-const cir = new Circle(2);
-console.log(cir);
+const cir = new Circle(2)
+console.log(cir.ping());
 
