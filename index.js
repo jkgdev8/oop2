@@ -11,3 +11,16 @@ const circle = {
 };
 
 circle.draw();
+
+function Circle(radius) {
+    this.radius = radius,
+        this.draw = function () {
+            console.log('draws');
+        }
+
+
+}
+
+const cir = new Circle(2);
+console.log(cir);
+
