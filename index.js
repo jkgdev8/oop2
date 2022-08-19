@@ -22,3 +22,7 @@ function Circle(hello) {
 const cir = new Circle(2)
 console.log(cir.ping());
 
+
+
+const cir2 = new Circle(1)
+console.log(cir2);
