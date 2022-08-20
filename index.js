@@ -25,4 +25,6 @@ console.log(cir.ping());
 
 
 const cir2 = new Circle(1)
-console.log(cir2);
+console.log(cir2)
+
+console.log('hello world');
