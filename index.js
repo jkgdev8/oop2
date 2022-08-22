@@ -10,4 +10,5 @@ function Circle(radius) {
 }
 
 const cir = new Circle(1)
+const cir2 = new Circle(2);
 console.log(cir);
