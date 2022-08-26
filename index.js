@@ -9,9 +9,6 @@ function Circle(radius) {
     }
 }
 
-const cir = new Circle(1)
-const cir2 = new Circle(2)
-const cir3 = new Circle(3)
-const cir4 = new Circle(4)
+const circ = new Circle(2);
+console.log(circ.draw());
 
-console.log(cir);
