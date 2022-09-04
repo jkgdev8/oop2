@@ -47,3 +47,12 @@ console.log(cir);
 console.log(cir.draw()
 );
 
+function Circ(radius) {
+    this.radius = radius,
+        this.draw = function () {
+            console.log('still draw');
+        }
+}
+
+const c1 = new Circ(2);
+console.log(c1.draw());
