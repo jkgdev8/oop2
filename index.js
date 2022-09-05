@@ -19,16 +19,13 @@
 function createCircle(radius) {
     return {
         radius,
-        draw: function () {
-            console.log('draw');
+        draw() {
+            console.log('still draw');
         }
     }
 }
-
-const circle = createCircle(1);
-circle.draw()
-console.log("~ circle.draw()", circle.draw());
-
+const circ = createCircle(1);
+console.log(circ.draw());
 
 
 
@@ -36,23 +33,12 @@ console.log("~ circle.draw()", circle.draw());
 
 // Constructor Function
 function Circle(radius) {
-    this.radius = radius;
-    this.draw = function () {
-        console.log('draw');
-    }
-}
-
-const cir = new Circle(1);
-console.log(cir);
-console.log(cir.draw()
-);
-
-function Circ(radius) {
     this.radius = radius,
         this.draw = function () {
             console.log('still draw');
         }
 }
 
-const c1 = new Circ(2);
-console.log(c1.draw());
+const cir = new Circle(2);
+console.log(cir);
+console.log(cir.draw(0));
