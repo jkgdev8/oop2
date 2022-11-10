@@ -67,12 +67,23 @@
 // const circ = createCircle(1)
 // console.log(circ.draw());
 
+// function Circle(radius) {
+//     this.radius = radius,
+//         this.draw = function () {
+//             console.log('draw');
+//         }
+// }
+
+// const c = new Circle(1)
+// console.log(c.draw)();
+
 function Circle(radius) {
-    this.radius = radius,
+    this.Circle = Circle,
         this.draw = function () {
-            console.log('draw');
+            console.log('hello draw');
         }
 }
 
 const c = new Circle(1)
-console.log(c.draw)();
+console.log(c);
+console.log(c.draw());
