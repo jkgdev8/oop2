@@ -87,3 +87,14 @@ function Circle(radius) {
 const c = new Circle(1)
 console.log(c);
 console.log(c.draw());
+
+function Circle(radius) {
+    this.Circle = Circle,
+        this.draw = function () {
+            console.log('hello draw');
+        }
+}
+
+const c = new Circle(1)
+console.log(c);
+console.log(c.draw());
