@@ -5,6 +5,5 @@ function Circle(radius) {
         }
 }
 
-const c = new Circle(3);
+const c = new Circle(2)
 console.log(c.draw());
-
